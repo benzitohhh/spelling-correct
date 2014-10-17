@@ -61,4 +61,7 @@ def correctB(word):
     }
 
 # pprint(correctB('corract'))
+
+## Notice the zipf distribution:
+# pprint([(x, NWORDS[x]) for x in sorted(NWORDS, key=NWORDS.get, reverse=True)[:100]])
     
