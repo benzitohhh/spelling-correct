@@ -1,3 +1,4 @@
+# see http://norvig.com/spell-correct.html
 import re, collections
 
 def words(text): return re.findall('[a-z]+', text.lower())
